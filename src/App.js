@@ -15,7 +15,7 @@ function App() {
   }
   
   function shuffle(a) {
-    var j, x, i;
+    var j, x;
     for (let i = a.length - 1; i > 0; i--) {
       j = Math.floor(Math.random() * (i + 1));
       x = a[i];
